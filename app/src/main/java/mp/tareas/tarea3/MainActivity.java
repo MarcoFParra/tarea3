@@ -346,6 +346,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView imageview;
     private void showTheLoot() {
 
+        layout.removeAllViews();
         LinearLayout.LayoutParams params = new LinearLayout
                 .LayoutParams(100, 100);
         params.setMargins(15,0,15,0);
